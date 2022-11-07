@@ -6,7 +6,7 @@
 ### Representation of Graphs
 1. Adjacency list on directed Graph
 ```
-Dict key is node
+Dict[key]: value, key is node and value are the neigbhors.
 Dict value is directed neighbors
 {
     a: [b, c],
